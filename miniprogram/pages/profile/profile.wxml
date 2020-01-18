@@ -1,0 +1,159 @@
+<!--miniprogram/pages/profile/profile.wxml-->
+<cu-custom bgColor="bg-gradual-green" isBack="{{ true }}"><view slot="content">やぷらす是谁</view></cu-custom>
+<view class="cu-chat">
+  <view class="cu-item self">
+    <view class="main">
+      <view class="content bg-green shadow">
+        <text>这个小程序是用来进行やぷらす表情包制作的，那么やぷらす是谁呢？</text>
+      </view>
+    </view>
+    <view class="cu-avatar radius" style="background-image:url(https://gss1.bdstatic.com/9vo3dSag_xI4khGkpoWK1HF6hhy/baike/c0%3Dbaike80%2C5%2C5%2C80%2C26/sign=f722cc7cc31b9d169eca923392b7dfea/79f0f736afc379318bb1d88ae6c4b74542a911b3.jpg);"></view>
+    <view class="date">19:19</view>
+  </view>
+
+  <view class="cu-item">
+    <view class="cu-avatar radius" style="background-image:url(https://gss3.bdstatic.com/7Po3dSag_xI4khGkpoWK1HF6hhy/baike/c0%3Dbaike80%2C5%2C5%2C80%2C26/sign=f690a352bd3533fae1bb9b7cc9ba967a/9f2f070828381f30066ca7f5a5014c086e06f071.jpg);"></view>
+    <view class="main">
+      <view class="content shadow">
+        <text>やぷらす是日本的同人创作者，还是筑波大学硕士在读的程序设计师——啊，现在应该在读博士吧。这些图都是他画的。</text>
+      </view>
+    </view>
+    <view class="date"> 19:20</view>
+  </view>
+
+  <view class="cu-item self">
+    <view class="main">
+      <view class="content bg-green shadow">
+        <text>那么他画的图片是如何变成表情包的呢？</text>
+      </view>
+    </view>
+    <view class="cu-avatar radius" style="background-image:url(https://gss1.bdstatic.com/9vo3dSag_xI4khGkpoWK1HF6hhy/baike/c0%3Dbaike80%2C5%2C5%2C80%2C26/sign=f722cc7cc31b9d169eca923392b7dfea/79f0f736afc379318bb1d88ae6c4b74542a911b3.jpg);"></view>
+    <view class="date">19:21</view>
+  </view>
+
+  <view class="cu-item">
+    <view class="cu-avatar radius" style="background-image:url(https://gss3.bdstatic.com/7Po3dSag_xI4khGkpoWK1HF6hhy/baike/c0%3Dbaike80%2C5%2C5%2C80%2C26/sign=f690a352bd3533fae1bb9b7cc9ba967a/9f2f070828381f30066ca7f5a5014c086e06f071.jpg);"></view>
+    <view class="main">
+      <view class="content shadow">
+        <text>起初，他的这些图只是用来当头像的。</text>
+      </view>
+    </view>
+    <view class="date"> 19:22</view>
+  </view>
+
+  <view class="cu-item">
+    <view class="cu-avatar radius" style="background-image:url(https://gss3.bdstatic.com/7Po3dSag_xI4khGkpoWK1HF6hhy/baike/c0%3Dbaike80%2C5%2C5%2C80%2C26/sign=f690a352bd3533fae1bb9b7cc9ba967a/9f2f070828381f30066ca7f5a5014c086e06f071.jpg);"></view>
+    <view class="main">
+      <view class="content shadow">
+        <text>后来，不知道哪个网友在他的这种图下面配上字做成了表情包。就像这样——</text>
+      </view>
+    </view>
+    <view class="date"> 19:23</view>
+  </view>
+
+  <view class="cu-item">
+    <view class="cu-avatar radius" style="background-image:url(https://gss3.bdstatic.com/7Po3dSag_xI4khGkpoWK1HF6hhy/baike/c0%3Dbaike80%2C5%2C5%2C80%2C26/sign=f690a352bd3533fae1bb9b7cc9ba967a/9f2f070828381f30066ca7f5a5014c086e06f071.jpg);"></view>
+    <view class="main">
+      <image src="https://img.moegirl.org/common/e/ed/Chiya.jpg" class="radius" mode="widthFix"></image>
+    </view>
+    <view class="date"> 19:24</view>
+  </view>
+
+  <view class="cu-item">
+    <view class="cu-avatar radius" style="background-image:url(https://gss3.bdstatic.com/7Po3dSag_xI4khGkpoWK1HF6hhy/baike/c0%3Dbaike80%2C5%2C5%2C80%2C26/sign=f690a352bd3533fae1bb9b7cc9ba967a/9f2f070828381f30066ca7f5a5014c086e06f071.jpg);"></view>
+    <view class="main">
+      <view class="content shadow">
+        <text>而这一切被やぷらす本人发现了：</text>
+      </view>
+    </view>
+    <view class="date"> 19:25</view>
+  </view>
+
+  <view class="cu-item">
+    <view class="cu-avatar radius" style="background-image:url(https://gss3.bdstatic.com/7Po3dSag_xI4khGkpoWK1HF6hhy/baike/c0%3Dbaike80%2C5%2C5%2C80%2C26/sign=f690a352bd3533fae1bb9b7cc9ba967a/9f2f070828381f30066ca7f5a5014c086e06f071.jpg);"></view>
+    <view class="main">
+      <image src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1573903001651&di=e7f2385dbe194c4c86724cd8ea0202e3&imgtype=0&src=http%3A%2F%2Fwx2.sinaimg.cn%2Fmw690%2F8729a0eegy1fjus7kih3gj20i709cwj9.jpg" class="radius" mode="widthFix"></image>
+    </view>
+    <view class="date"> 19:24</view>
+  </view>
+
+  <view class="cu-item">
+    <view class="cu-avatar radius" style="background-image:url(https://gss3.bdstatic.com/7Po3dSag_xI4khGkpoWK1HF6hhy/baike/c0%3Dbaike80%2C5%2C5%2C80%2C26/sign=f690a352bd3533fae1bb9b7cc9ba967a/9f2f070828381f30066ca7f5a5014c086e06f071.jpg);"></view>
+    <view class="main">
+      <view class="content shadow">
+        <text>之后，やぷらす本人不仅进行了高清重制：</text>
+      </view>
+    </view>
+    <view class="date"> 19:25</view>
+  </view>
+
+  <view class="cu-item">
+    <view class="cu-avatar radius" style="background-image:url(https://gss3.bdstatic.com/7Po3dSag_xI4khGkpoWK1HF6hhy/baike/c0%3Dbaike80%2C5%2C5%2C80%2C26/sign=f690a352bd3533fae1bb9b7cc9ba967a/9f2f070828381f30066ca7f5a5014c086e06f071.jpg);"></view>
+    <view class="main">
+      <image src="https://img.moegirl.org/common/7/7c/Yaplus_%E8%90%8C%E6%96%B0%E4%B8%89%E8%BF%9E_urara.png" class="radius" mode="widthFix"></image>
+    </view>
+    <view class="date"> 19:26</view>
+  </view>
+
+  <view class="cu-item">
+    <view class="cu-avatar radius" style="background-image:url(https://gss3.bdstatic.com/7Po3dSag_xI4khGkpoWK1HF6hhy/baike/c0%3Dbaike80%2C5%2C5%2C80%2C26/sign=f690a352bd3533fae1bb9b7cc9ba967a/9f2f070828381f30066ca7f5a5014c086e06f071.jpg);"></view>
+    <view class="main">
+      <view class="content shadow">
+        <text>还开通了新浪微博，和中国网友们进行互动。他的微博昵称是yaplusoon（https://www.weibo. com/p/1005056330032500），现在已有2w多粉丝。</text>
+      </view>
+    </view>
+    <view class="date"> 19:27</view>
+  </view>
+
+  <view class="cu-item">
+    <view class="cu-avatar radius" style="background-image:url(https://gss3.bdstatic.com/7Po3dSag_xI4khGkpoWK1HF6hhy/baike/c0%3Dbaike80%2C5%2C5%2C80%2C26/sign=f690a352bd3533fae1bb9b7cc9ba967a/9f2f070828381f30066ca7f5a5014c086e06f071.jpg);"></view>
+    <view class="main">
+      <view class="content shadow">
+        <text>直至现在，他仍在创作各种这种画风的图片，而很多也被网友们配上了字做成了表情包。</text>
+      </view>
+    </view>
+    <view class="date"> 19:28</view>
+  </view>
+
+  <view class="cu-item self">
+    <view class="main">
+      <view class="content bg-green shadow">
+        <text>这样使用他的作品，不侵权吗？</text>
+      </view>
+    </view>
+    <view class="cu-avatar radius" style="background-image:url(https://gss1.bdstatic.com/9vo3dSag_xI4khGkpoWK1HF6hhy/baike/c0%3Dbaike80%2C5%2C5%2C80%2C26/sign=f722cc7cc31b9d169eca923392b7dfea/79f0f736afc379318bb1d88ae6c4b74542a911b3.jpg);"></view>
+    <view class="date">19:29</view>
+  </view>
+
+  <view class="cu-item">
+    <view class="cu-avatar radius" style="background-image:url(https://gss3.bdstatic.com/7Po3dSag_xI4khGkpoWK1HF6hhy/baike/c0%3Dbaike80%2C5%2C5%2C80%2C26/sign=f690a352bd3533fae1bb9b7cc9ba967a/9f2f070828381f30066ca7f5a5014c086e06f071.jpg);"></view>
+    <view class="main">
+      <view class="content shadow">
+        <text>やぷらす本人已经对表情包制作予以授权了，不过，他不允许别人那他的这些图片当头像。</text>
+      </view>
+    </view>
+    <view class="date"> 19:30</view>
+  </view>
+
+  <view class="cu-item">
+    <view class="cu-avatar radius" style="background-image:url(https://gss3.bdstatic.com/7Po3dSag_xI4khGkpoWK1HF6hhy/baike/c0%3Dbaike80%2C5%2C5%2C80%2C26/sign=f690a352bd3533fae1bb9b7cc9ba967a/9f2f070828381f30066ca7f5a5014c086e06f071.jpg);"></view>
+    <view class="main">
+      <view class="content shadow">
+        <text>如果想更加了解やぷらす的话，可以阅读相应的萌娘百科条目：やぷらす</text>
+      </view>
+    </view>
+    <view class="date"> 19:31</view>
+  </view>
+
+</view>
+
+<view class="cu-bar foot input {{InputBottom!=0?'cur':''}}" style="bottom:{{InputBottom}}px">
+  <view class="action">
+    <text class="cuIcon-sound text-grey"></text>
+  </view>
+  <input class="solid-bottom" bindfocus="InputFocus" bindblur="InputBlur" adjust-position="{{false}}" focus="{{false}}" maxlength="300" cursor-spacing="10"></input>
+  <view class="action">
+    <text class="cuIcon-emoji text-grey"></text>
+    <text class="cuIcon-roundadd text-grey"></text>
+  </view>
+</view>

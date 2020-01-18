@@ -1,0 +1,18 @@
+<!--miniprogram/pages/MainPage/MainPage.wxml-->
+<view class="background">
+  <view class="upBg">
+    <image src="/images/logo.png" bindtap="contactMe" class="png" mode="widthFix"></image>
+    <view class="text-xl">YaplusMeme</view>
+    <view class="text-df">专注于やぷらす表情包制作的微信小程序</view>
+    <view class="margin-top-sm">Made by leavesyoung（点击上方logo联系我！）</view>
+    <view class="sm">UI: colorUI by 文晓港</view>
+    <image src="https://raw.githubusercontent.com/weilanwl/ColorUI/master/demo/images/wave.gif" mode="scaleToFill" class="gif-wave"></image>
+  </view>
+  <view class='nav-list'>
+    <navigator hover-class='none' url="/pages/{{item.name}}/{{item.name}}" class="nav-li bg-{{item.color}}" wx:for="{{indexList}}" wx:key>
+      <view class="nav-title">{{item.title}}</view>
+      <view class="nav-name">{{item.name}}</view>
+      <text class='cuIcon-{{item.icon}}'></text>
+    </navigator>
+  </view>
+</view>

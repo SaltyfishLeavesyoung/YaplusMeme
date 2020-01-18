@@ -1,0 +1,4 @@
+/* miniprogram/pages/profile/profile.wxss */
+page{
+  padding-bottom: 100rpx;
+}

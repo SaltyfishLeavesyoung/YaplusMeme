@@ -1,0 +1,53 @@
+<!--miniprogram/pages/maker/maker.wxml-->
+<cu-custom bgColor="bg-gradual-blue" isBack="{{ true }}"><view slot="content">表情包制作</view></cu-custom>
+
+<view class="cu-modal {{showWarning?'show':''}}">
+  <view class="cu-dialog">
+    <view class="cu-bar bg-white justify-end">
+      <view class="content">提示</view>
+      <view class="action" bindtap="hideWarning">
+        <text class="cuIcon-close text-red"></text>
+      </view>
+    </view>
+    <view class="padding-xl">
+      やぷらす本人只对用他的作品制作表情包进行授权，而使用其作品当头像是被やぷらす本人所禁止的。请务必不要拿他的作品做头像。
+    </view>
+    <view class="cu-bar bg-white">
+      <view class="action margin-0 flex-sub  solid-left" bindtap="hideWarning">我知道了</view>
+    </view>
+  </view>
+</view>
+
+<view class="cu-modal {{showHelp?'show':''}}">
+  <view class="cu-dialog">
+    <view class="cu-bar bg-white justify-end">
+      <view class="content">帮助</view>
+      <view class="action" bindtap="hideHelp">
+        <text class="cuIcon-close text-red"></text>
+      </view>
+    </view>
+    <view class="padding-xl">
+      点击图片进入画布。在画布里你可以移动，放大，缩小图片，也可以添加文字。在“配字”栏输入文字，并在“颜色”栏输入颜色后，点击“添加文字”即可添加。文字也可以移动，放大，缩小。颜色栏支持默认颜色（如red,black）和16进制颜色（如#66ccff）。点击“去裁剪页”可以在另外的页面裁剪当前表情包。在裁剪页移动选区选择裁剪区域，点击选区可以预览选区内图片，长按选择保存图片即可保存到本地。
+    </view>
+    <view class="cu-bar bg-white">
+      <view class="action margin-0 flex-sub  solid-left" bindtap="hideHelp">我知道了</view>
+    </view>
+  </view>
+</view>
+
+<view class="cu-bar bg-white solid-bottom margin-top">
+  <view class="action">
+    <text class="cuIcon-title text-blue "></text> 选择图片
+  </view>
+  <view class="action">
+    <button class="cu-btn bg-blue shadow" bindtap="showHelpModel" style="width:100%">帮助</button>
+  </view>
+</view>
+
+<view class='meme-list'>
+  <navigator hover-class='none' url="/pages/maker/canvas?fileid={{ item.fileid }}" wx:for="{{memeList}}" wx:key>
+    <image class="meme-li" src="{{ item.url }}"></image>
+  </navigator>
+</view>
+
+

@@ -1,0 +1,14 @@
+<!--miniprogram/pages/maker/canvas.wxml-->
+<cu-custom bgColor="bg-gradual-blue" isBack="{{ true }}"><view slot="content">画布</view></cu-custom>
+<!--<canvas canvas-id="mymeme" style="width:{{ windowWidth }}px;height:{{ windowHeight * 0.6 }}px;"></canvas>-->
+<canvas-drag id="canvas-drag" graph="{{graph}}" width="700" height="700"></canvas-drag>
+<view class="cu-form-group">
+		<view class="title">配字</view>
+		<input placeholder="请输入文字" bindinput="changepeizi"></input>
+</view>
+<view class="cu-form-group">
+		<view class="title">颜色</view>
+		<input placeholder="请输入文字颜色（16进制或预定义）" bindinput="changecolor"></input>
+</view>
+<button class="cu-btn bg-green shadow mybutton" bindtap="addpeizi">添加文字</button>
+<button class="cu-btn bg-green shadow mybutton" bindtap="getpicture">去裁剪页</button>

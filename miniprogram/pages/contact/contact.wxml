@@ -1,0 +1,5 @@
+<!--miniprogram/pages/contact/contact.wxml-->
+<cu-custom bgColor="bg-gradual-pink" isBack="{{ true }}"><view slot="content">联系作者</view></cu-custom>
+<view class="qr">
+  <image src="/images/qrcode.jpg" class="jpg" mode="widthFix"></image>
+</view>

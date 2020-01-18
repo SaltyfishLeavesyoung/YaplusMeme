@@ -1,0 +1,3 @@
+<!--miniprogram/pages/maker/cropper.wxml-->
+<cu-custom bgColor="bg-gradual-blue" isBack="{{ true }}"><view slot="content">裁剪</view></cu-custom>
+<image-cropper id="image-cropper" limit_move="{{true}}" disable_rotate="{{true}}" width="{{width}}" height="{{height}}" imgSrc="{{src}}" bindtapcut="clickcut"></image-cropper>
